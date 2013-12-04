@@ -38,6 +38,6 @@ RUN  apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10 ;\
 
 EXPOSE 3000
 
-CMD ["node","/src/index.js"]
+CMD ["node","/src/app.js"]
 
 
